@@ -1538,6 +1538,9 @@ img {
   z-index: 10;
   width: 100%;
   height: 345px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1640,6 +1643,11 @@ img {
 }
 
 /* :: 17.0 Contact Area CSS */
+.rhythmhouse-cta-area {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .cta-content {
   position: relative;
@@ -1650,6 +1658,7 @@ img {
   position: relative;
   z-index: 1;
   margin-right: 50px;
+  text-shadow: 4px 4px 10px #111;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1716,7 +1725,6 @@ img {
 }
 
 /* :: 20.0 Contact Area CSS */
-
 .contact-content {
   position: relative;
   z-index: 2;
